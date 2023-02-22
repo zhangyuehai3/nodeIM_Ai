@@ -1,0 +1,33 @@
+{
+  "name": "nodeIM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "node ./dist/bundle.js",
+    "build": "rollup --config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@yxim/nim-web-sdk": "^9.9.0",
+    "chalk": "^5.2.0",
+    "chatgpt": "^4.7.1",
+    "fs-extra": "^11.1.0",
+    "ini": "^3.0.1",
+    "inquirer": "^9.1.4",
+    "lodash-es": "^4.17.21",
+    "log4js": "^6.7.1",
+    "rollup": "^2.77.3"
+  },
+  "dependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "fetch": "^1.1.0"
+  }
+}
